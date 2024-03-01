@@ -1,0 +1,166 @@
+/* Impostazioni generali */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  margin: 0.5em 0; /* 0.5 sopra/sotto, 0 destra/sinistra */
+}
+
+body {
+  width: 450px;
+  margin: auto;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+}
+header img {
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 125px;
+  margin-right: 100px;
+}
+
+/* body */
+
+.sezione1 h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+}
+
+.sezione1 {
+  background-image: url(/Progetto/assets-2/img/banner.jpg);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-size: contain;
+}
+.center {
+  text-align: center;
+}
+.sezione1 p {
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+.bottone1 {
+  background-color: #ff4848;
+  border: none;
+  padding: 10px 29px;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+.sezione2 {
+  text-align: center;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line: height 1.65em;
+}
+.sezione2 h2 {
+  color: #25a2c3;
+}
+.sezione2 img {
+  border-radius: 100%;
+  width: 350px;
+}
+em {
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sezione-esterna {
+  background-color: #e22d0e;
+  text-align: center;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sezione3 img {
+  width: 380px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 5px;
+  margin-right: 100px;
+}
+.sezione3 {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.sezione3 h5 {
+  color: #25a2c3;
+}
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+footer a {
+  color: #c8e7f0;
+}
+hr {
+  width: 50%;
+}
+#orgin {
+  font-size: 1rem;
+}
+.minisezioni {
+  border: 1px solid #dee1e3;
+  margin-bottom: 50px;
+}
+#pc2 {
+  margin-top: 50px;
+}
+#viaappia {
+  color: #c8e7f0;
+}
